@@ -8,7 +8,7 @@ Proiectul este reprezentat de un site web ce cuprinde informații despre mașini
 
 Task-uri membri:
 
--Iliuta Andrei: Am pus indexul.html urmand sa restructurez codul astfel incat sa aiba o nuanta buna vizibila si comentarii 
+-Iliuta Andrei: Am pus indexul.html urmand sa restructurez codul astfel incat sa aiba o nuanta buna vizibila si comentarii ,la fel am facut si contact.html si batmobil.html
 
 -Grama Simona: Am creat paginile style.css, versiuni.txt si readme.md in Github si am adaugat in readme.md motivatia alegerii temei.
 
