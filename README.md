@@ -7,6 +7,7 @@ Când vine vorba despre automobile celebre, cele mai cunoscute dintre acestea ș
 Proiectul este reprezentat de un site web ce cuprinde informații despre mașinile din filme celebre. De asemenea este prezentă și o pagină cu un test grilă ce ne ajută să ne testăm cunoștințele, după parcurgerea informațiilor, dar și o pagină dedicată unei galerii foto.
 
 Task-uri membri:
+
 -Iliuta Andrei: Am pus indexul.html urmand sa restructurez codul astfel incat sa aiba o nuanta buna vizibila si comentarii 
 
 -Grama Simona: Am creat paginile style.css, versiuni.txt si readme.md in Github si am adaugat in readme.md motivatia alegerii temei.
