@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Setează tipul de document HTML5 -->
+    <meta charset="UTF-8"> <!-- Suport pentru caractere speciale (diacritice etc.) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilitate cu Internet Explorer -->
+    <title>Cars and movies | Contact</title> <!-- Titlul paginii din bara browserului -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Pagină responsive pe mobil -->
+
+    <!-- Favicon-uri -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+
+    <!-- Fișiere CSS pentru design -->
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css"> <!-- Biblioteci CSS externe (ex: Bootstrap) -->
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css"> <!-- Plugin-uri CSS -->
+    <link rel="stylesheet" href="assets/css/style.min.css"> <!-- Stilul principal al site-ului -->
+    <link href="assets/css/all.css" type="text/css" rel="stylesheet"> <!-- Font Awesome (icoane) -->
+</head>
+
+<body>
+    <!-- PRELOADER (animație de încărcare) -->
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WRAPPER GENERAL PENTRU TOATĂ PAGINA -->
+    <div class="main-wrapper">
+
+        <!-- ======== HEADER ======== -->
+        <header class="main-header-area">
+
+            <!-- Bara de sus (sticky header) -->
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <!-- Logo-ul din antet -->
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <!-- Meniu principal (vizibil pe desktop) -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+                                            <li><a href="index.html">Prima pagină</a></li>
+
+                                            <!-- Meniu dropdown Mașini -->
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i></a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="fast-furious.html">Mașini din Fast &amp Furious</a></li>
+                                                    <li><a href="nfs.html">Mașini din Need for Speed</a></li>
+                                                    <li><a href="batmobil.html">Batmobilul</a></li>
+                                                    <li><a href="bond.html">Mașinile lui James Bond</a></li>
+                                                    <li><a href="transformers.html">Mașini Transformers</a></li>
+                                                    <li><a href="bean.html">Mașina lui Mr. Bean</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Alte pagini din meniu -->
+                                            <li><a href="quiz.html">Quiz</a></li>
+                                            <li><a href="galerie.html">Galerie</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <!-- Buton pentru meniu mobil -->
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                                Meniu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meniu mobil -->
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html"><span class="mm-text">Prima pagină</span></a></li>
+
+                                    <!-- Submeniu Mașini pentru mobil -->
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span class="mm-text">Mașini <i class="fa fa-caret-down"></i></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="fast-furious.html"><span class="mm-text">Mașini din Fast &amp Furious</span></a></li>
+                                            <li><a href="nfs.html"><span class="mm-text">Mașini din Need for Speed</span></a></li>
+                                            <li><a href="batmobil.html"><span class="mm-text">Batmobilul</span></a></li>
+                                            <li><a href="bond.html"><span class="mm-text">Mașinile lui James Bond</span></a></li>
+                                            <li><a href="transformers.html"><span class="mm-text">Mașini Transformers</span></a></li>
+                                            <li><a href="bean.html"><span class="mm-text">Mașina lui Mr. Bean</span></a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="quiz.html"><span class="mm-text">Quiz</span></a></li>
+                                    <li><a href="galerie.html"><span class="mm-text">Galerie</span></a></li>
+                                    <li><a href="contact.html"><span class="mm-text">Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="global-overlay"></div> <!-- Fundalul întunecat pentru meniul mobil -->
+        </header>
+
+        <!-- ======== SECTIUNEA DE CONTACT ======== -->
+        <div class="newsletter-area section-border-y-axis">
+            <div class="container">
+
+                <!-- Primul rând cu imagine și text despre echipă -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="newsletter-img">
+                            <img src="assets/images/nfs1.jpg"> <!-- Imagine stângă -->
+                        </div>
+                    </div>
+
+                    <!-- Informații despre echipă -->
+                    <div class="col-md-6 align-self-md-center pb-10 pb-md-0">
+                        <div class="newsletter-content">
+                            <h2 class="newsletter-title mb-4">Contact</h2><br>
+                            <h3 class="newsletter-sub-title text-primary mb-8" style="font-size: 20px;">Grama Simona, Iliuta Andrei, Craciun Andrei</h3>
+                            <h3 class="newsletter-sub-title text-primary mb-8" style="font-size: 20px;">Unitbv</h3>
+                            <h3 class="newsletter-sub-title text-primary mb-8" style="font-size: 20px;">Anul 4</h3>
+                            <h3 class="newsletter-sub-title text-primary mb-8" style="font-size: 20px;">Profesor coordonator:</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formularul de contact -->
+                <div class="row">
+                    <div class="col-md-6 align-self-md-center pb-10 pb-md-0">
+                        <div class="newsletter-content">
+                            <h2 class="newsletter-title mb-4" style="font-size: 25px;">Trimite un mesaj</h2><br>
+
+                            <!-- Formularul propriu-zis -->
+                            <form class="newsletter-form" id="mc-form" method="post" action="index.html">
+                                <ul style="width: 100%;">
+                                    <!-- Câmp pentru nume -->
+                                    <li>
+                                        <input type="text" placeholder="Nume și prenume" class="form-control" required id="name" name="name">
+                                    </li><br>
+
+                                    <!-- Câmp pentru email -->
+                                    <li>
+                                        <input type="email" placeholder="Email" class="form-control" required id="email" name="email">
+                                    </li><br>
+
+                                    <!-- Câmp pentru mesaj -->
+                                    <li>
+                                        <textarea placeholder="Mesajul ..." class="form-control message" id="message" name="message" required></textarea>
+                                    </li><br>
+
+                                    <!-- Butonul de trimitere -->
+                                    <div class="button-wrap">
+                                        <button class="btn btn-custom-size btn-primary" id="mc-submit">Trimite mesajul</button>
+                                    </div>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Imagine decorativă în partea dreaptă -->
+                    <div class="col-md-6">
+                        <div class="newsletter-img">
+                            <img src="assets/images/fast-furious7.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======== FOOTER ======== -->
+        <div class="footer-area" style="padding-top: 75px;">
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">
+                                    Cars and movies | Contact
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Butonul pentru scroll în sus -->
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Scripturi JavaScript -->
+    <script src="assets/js/vendor.min.js"></script>  <!-- Biblioteci JS externe -->
+    <script src="assets/js/plugins.min.js"></script> <!-- Plugin-uri JS -->
+    <script src="assets/js/main.min.js"></script>    <!-- Scriptul principal al site-ului -->
+</body>
+</html>
