@@ -5,3 +5,8 @@ Am ales această temă pentru că sunt o persoană foarte pasionată de tot ce �
 Când vine vorba despre automobile celebre, cele mai cunoscute dintre acestea și-au făcut veacul pe micile ecrane, în peliculele vizionate de milioane de oameni. Multe dintre mașinile pe care copiii au visat să le conducă au fost inițial șofate de actori renumiți. Fie că e vorba despre automobilele unor personaje precum Batman sau James Bond, fie că sunt din desene animate, automobilele au rămas în istoria colectivă.
 
 Proiectul este reprezentat de un site web ce cuprinde informații despre mașinile din filme celebre. De asemenea este prezentă și o pagină cu un test grilă ce ne ajută să ne testăm cunoștințele, după parcurgerea informațiilor, dar și o pagină dedicată unei galerii foto.
+
+Task-uri membri:
+-Iluita Andrei:
+-Grama Simona:
+-Craciun Andrei:
