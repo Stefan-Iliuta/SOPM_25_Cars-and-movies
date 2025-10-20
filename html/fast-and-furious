@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- ======= METAINFORMAȚII ȘI LEGĂTURI CSS ======= -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cars and movies | Mașini din Fast &amp Furious</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+	<link href ="assets/css/all.css" type="text/css" rel = "stylesheet">
+	<link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+</head>
+
+<body>
+    <!-- ======= PRELOADER (ANIMAȚIE LA ÎNCĂRCAREA PAGINII) ======= -->
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= ÎNVELIȘ PRINCIPAL ======= -->
+    <div class="main-wrapper">
+
+        <!-- ======= SECȚIUNEA HEADER (ANTETUL PAGINII) ======= -->
+        <header class="main-header-area">
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <!-- ======= LOGO SITE ======= -->
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <!-- ======= MENIU PRINCIPAL ======= -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+											<li>
+                                                <a href="index.html">Prima pagină</a>
+                                            </li>
+											
+                                            <!-- ======= SUBMENIU - MAȘINI ======= -->
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i>
+                                                </a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="fast-furious.html">Mașini din Fast &amp Furious</a></li>
+                                                    <li><a href="nfs.html">Mașini din Need for Speed</a></li>
+													<li><a href="batmobil.html">Batmobilul</a></li>
+													<li><a href="bond.html">Mașinile lui James Bond</a></li>
+													<li><a href="transformers.html">Mașini Transformers</a></li>
+													<li><a href="bean.html">Mașina lui Mr. Bean</a></li>
+                                                </ul>
+                                            </li>
+											
+											<li><a href="quiz.html">Quiz</a></li>
+											<li><a href="galerie.html">Galerie</a></li>
+											<li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+								
+                                <!-- ======= BUTON MENIU MOBIL ======= -->
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                                Meniu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======= MENIU MOBIL ======= -->
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html"><span class="mm-text">Prima pagină</span></a></li>
+									
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span class="mm-text">Mașini <i class="fa fa-caret-down"></i></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="fast-furious.html"><span class="mm-text">Mașini din Fast &amp Furious</span></a></li>
+											<li><a href="nfs.html"><span class="mm-text">Mașini din Need for Speed</span></a></li>
+											<li><a href="batmobil.html"><span class="mm-text">Batmobilul</span></a></li>
+											<li><a href="bond.html"><span class="mm-text">Mașinile lui James Bond</span></a></li>
+											<li><a href="transformers.html"><span class="mm-text">Mașini Transformers</span></a></li>
+											<li><a href="bean.html"><span class="mm-text">Mașina lui Mr. Bean</span></a></li>
+                                        </ul>
+                                    </li>
+									
+									<li><a href="quiz.html"><span class="mm-text">Quiz</span></a></li>
+									<li><a href="galerie.html"><span class="mm-text">Galerie</span></a></li>
+									<li><a href="contact.html"><span class="mm-text">Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======= SUPRAFAȚĂ DE FUNDAL PENTRU MENIU MOBIL ======= -->
+            <div class="global-overlay"></div>
+        </header>
+        <!-- ======= FINAL SECȚIUNE HEADER ======= -->
+
+
+        <!-- ======= SECȚIUNEA SLIDER ======= -->
+        <div class="slider-area">
+            <div class="swiper-container main-slider swiper-arrow with-bg_white">
+                <div class="swiper-wrapper">
+
+                    <!-- ======= SLIDE 1 ======= -->
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/fast-furious1.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h2 class="title mb-3">Fast & Furious</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ======= SLIDE 2 ======= -->
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/fast-furious2.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h3 class="sub-title">Mașini din seria Fast & Furious</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======= CONTROALE SLIDER ======= -->
+                <div class="swiper-pagination with-bg d-md-none"></div>
+                <div class="custom-arrow-wrap d-none d-md-block">
+                    <div class="custom-button-prev"></div>
+                    <div class="custom-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ======= FINAL SLIDER ======= -->
+		
+		<!-- ======= SECȚIUNEA INTRODUCTIVĂ DESPRE FILM ======= -->
+		<div class="banner-area section-border-y-axis" style="padding-top: 15px;">
+            <div class="container">
+                <div class="row">
+                    <!-- ======= TEXT DESCRIPTIV ======= -->
+                    <div class="col-md-6 align-self-md-center order-2 order-md-1 pt-5 pt-md-0">
+                        <div class="banner-content text-center">
+                            <h4>
+							Filmele din seria Fast & Furious au făcut furori în întreaga lume...
+							</h4>
+                        </div>
+                    </div>
+                    <!-- ======= IMAGINE LATERALĂ ======= -->
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="banner-img">
+                            <img src="assets/images/fast-furious3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======= FINAL SECȚIUNE INTRODUCTIVĂ ======= -->
+		
+        <!-- ======= CONȚINUT PRINCIPAL ======= -->
+        <main class="main-content">
+            
+            <!-- ======= DESCRIERE FILM ======= -->
+            <div class="about-banner different-bg-position section-space-y-axis-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-banner-content text-center section-space-bottom-95">
+                                <div class="section-title">
+                                    <h2>Acțiunea primului film din seria Fast & Furious</h2>
+                                    <p class="short-desc mb-0" style="font-size: 20px;">
+                                        Primul film din această serie a trezit apetitul pasionaților de mașini...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- ======= GALERIE DE IMAGINI ======= -->
+                            <div class="about-banner-img row">
+                                <div class="col-lg-4"><div class="single-img img-hover-effect"><img class="img-full" src="assets/images/fast-furious4.jpg"></div></div>
+                                <div class="col-lg-4 section-space-top-100"><div class="single-img img-hover-effect"><img class="img-full" src="assets/images/fast-furious5.jpg"></div></div>
+                                <div class="col-lg-4 section-space-top-100 pt-lg-0"><div class="single-img img-hover-effect"><img class="img-full" src="assets/images/fast-furious6.jpg"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- ======= LISTĂ CU MAȘINI CELEBRE DIN FILM ======= -->
+            <div class="background-img">
+                <div class="banner-area section-space-top-100">
+                    <div class="container">
+					    <h2 style="text-align: center; padding-bottom: 25px;">Cele mai spectaculoase mașini din seria de filme Fast & Furious</h2>
+
+                        <!-- ======= PRIMUL RÂND DE MAȘINI ======= -->
+                        <div class="row">
+                            <!-- Fiecare coloană conține o mașină + descriere -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious7.jpg"></div>
+                                </div>
+							    <h4><b>1970 Dodge Charger</b></h4>
+							    <p style="font-size: 20px;">Dodge Charger 1970 a fost păstrat în garajul casei Toretto...</p>
+                            </div>
+                            
+							<div class="col-lg-4 col-md-6 pt-6 pt-md-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious8.jpg"></div>
+                                </div>
+							    <h4><b>1995 Toyota Supra Turbo</b></h4>
+							    <p style="font-size: 20px;">A depășit un Ferrari și a lăsat cu mult în spate un Dodge Charger...</p>
+                            </div>
+							
+                            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious9.jpg"></div>
+                                </div>
+							    <h4><b>1995 Volkswagen Jetta</b></h4>
+							    <p style="font-size: 20px;">Mașina nu s-a bucurat de prea multe apariții în film...</p>
+                            </div>
+                        </div>
+
+                        <!-- ======= AL DOILEA RÂND ======= -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious10.jpg"></div></div><h4><b>1995 Honda Civic</b></h4><p style="font-size: 20px;">În viața reală nu pare să reușească atât de mult să intimideze...</p></div>
+                            <div class="col-lg-4 col-md-6 pt-6 pt-md-0"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious11.jpg"></div></div><h4><b>1969 Chevrolet Camaro Yenko</b></h4><p style="font-size: 20px;">Yenko s-a dovedit a fi perfect pentru îmbarcarea lui Brian O'Conner...</p></div>
+                            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious12.jpg"></div></div><h4><b>1997 Mazda RX-7</b></h4><p style="font-size: 20px;">RX-7 s-a comercializat pe piața americană din 1993 până în 1995...</p></div>
+                        </div>
+
+                        <!-- ======= AL TREILEA RÂND ======= -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious13.jpg"></div></div><h4><b>1987 Buick Grand National GNX</b></h4><p style="font-size: 20px;">În permanentă căutare de senzații tari, Dominic Toretto...</p></div>
+                            <div class="col-lg-4 col-md-6 pt-6 pt-md-0"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious14.jpg"></div></div><h4><b>1995 Mitsubishi Eclipse</b></h4><p style="font-size: 20px;">Excesul de NoS a omorât Eclipse-ul condus de Brian O'Connor...</p></div>
+                            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0"><div class="banner-item img-hover-effect"><div class="banner-img img-zoom-effect"><img class="img-full" src="assets/images/fast-furious15.jpg"></div></div><h4><b>1967 Ford Mustang Fastback</b></h4><p style="font-size: 20px;">Ford Mustang Fastback este câștigătorul cursei de onoare...</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- ======= FINAL CONȚINUT PRINCIPAL ======= -->
+
+        <!-- ======= SECȚIUNEA FOOTER (SUBSOL PAGINĂ) ======= -->
+        <div class="footer-area">
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">
+                                    Cars and movies | Mașini din Fast &amp Furious
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======= FINAL FOOTER ======= -->
+
+        <!-- ======= BUTON SCROLL ÎN SUS ======= -->
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- ======= SCRIPTURI JAVASCRIPT ======= -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>
