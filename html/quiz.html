@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cars and movies | Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+	<link href ="assets/css/all.css" type="text/css" rel = "stylesheet">
+	<link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+			<script language="JavaScript">
+				var numQues = 10;
+				var numChoi = 3;
+				var answers = new Array(10);
+				var rezultat = new Array(2);
+				var response = new Array();
+				var final = 0;
+				answers[0] = "b) Aston Martin";
+				answers[1] = "a) Dodge Charger din 1970";
+				answers[2] = "c) Tumbler";
+				answers[3] = "b) Ford Shelby Mustang";
+				answers[4] = "a) portocaliu";
+				answers[5] = "a) Chevrolet Camaro";
+				answers[6] = "a) 5 milioane de euro";
+				answers[7] = "b) curse ilegale de mașini, spargeri și jafuri";
+				answers[8] = "c) Koenigsegg Acera R";
+				answers[9] = "a) încrucișare între un Lamborghini și un tanc";
+
+				function getScore(form) {
+				  var score = 0;
+				  var currElt;
+				  var currSelection;
+				  for (i=0; i<numQues; i++) {
+					currElt = i*numChoi;
+					for (j=0; j<numChoi; j++) {
+					  currSelection = form.elements[currElt + j];
+					  if (currSelection.checked) {
+						if (currSelection.value == answers[i]) {
+						  score++;
+						  break;
+						}
+					  }
+					}
+				  }
+				  score = Math.round(score/numQues*100);
+				  form.percentage.value = score + "%";
+				  final=score;
+				  var correctAnswers = "";
+				  for (i=1; i<=numQues; i++) {
+					correctAnswers += i + ". " + answers[i-1] + "\r\n";
+				  }
+				  form.solutions.value = correctAnswers;
+				}
+			</script>
+</head>
+
+<body>
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main-wrapper">
+
+        <header class="main-header-area">
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+											<li>
+                                                <a href="index.html">Prima pagină</a>
+                                            </li>
+											
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i>
+                                                </a>
+                                                <ul class="drop-menu">
+                                                    <li>
+                                                        <a href="fast-furious.html">Mașini din Fast &amp Furious</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="nfs.html">Mașini din Need for Speed</a>
+                                                    </li>
+													<li>
+                                                        <a href="batmobil.html">Batmobilul</a>
+                                                    </li>
+													<li>
+                                                        <a href="bond.html">Mașinile lui James Bond</a>
+                                                    </li>
+													<li>
+                                                        <a href="transformers.html">Mașini Transformers</a>
+                                                    </li>
+													<li>
+                                                        <a href="bean.html">Mașina lui Mr. Bean</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+											
+											<li>
+                                                <a href="quiz.html">Quiz</a>
+                                            </li>
+											
+											<li>
+                                                <a href="galerie.html">Galerie</a>
+                                            </li>
+											
+											<li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+											
+                                        </ul>
+                                    </nav>
+                                </div>
+								
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                                Meniu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        
+                        
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    
+                                    <li>
+                                        <a href="index.html">
+                                            <span class="mm-text">Prima pagină</span>
+                                        </a>
+                                    </li>
+									
+                                    <li class="menu-item-has-children">
+                                        <a href="#">
+                                            <span class="mm-text">Mașini 
+												<i class="fa fa-caret-down"></i>
+											</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="fast-furious.html">
+                                                    <span class="mm-text">Mașini din Fast &amp Furious</span>
+                                                </a>
+                                            </li>
+											<li>
+                                                <a href="nfs.html">
+                                                    <span class="mm-text">Mașini din Need for Speed</span>
+                                                </a>
+                                            </li>
+											<li>
+                                                <a href="batmobil.html">
+                                                    <span class="mm-text">Batmobilul</span>
+                                                </a>
+                                            </li>
+											<li>
+                                                <a href="bond.html">
+                                                    <span class="mm-text">Mașinile lui James Bond</span>
+                                                </a>
+                                            </li>
+											<li>
+                                                <a href="transformers.html">
+                                                    <span class="mm-text">Mașini Transformers</span>
+                                                </a>
+                                            </li>
+											<li>
+                                                <a href="bean.html">
+                                                    <span class="mm-text">Mașina lui Mr. Bean</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+									
+									<li>
+                                        <a href="quiz.html">
+                                            <span class="mm-text">Quiz</span>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a href="galerie.html">
+                                            <span class="mm-text">Galerie</span>
+                                        </a>
+                                    </li>
+									
+									<li>
+                                        <a href="contact.html">
+                                            <span class="mm-text">Contact</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="global-overlay"></div>
+        </header>
+
+
+		
+        <main class="main-content">
+			
+			<div class="banner-area banner-style-2 section-border-y-axis section-space-y-axis-100" data-bg-image="assets/images/banner4.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="banner-content text-center">
+                                <h2 class="title mb-5">Quiz</h2>
+                            </div>
+                        </div>
+						<form method="post" name="quiz">
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">1. Care este marca de mașină făcută celebră de personajul James Bond?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q1" value="a) Ford Mustang"> a) Ford Mustang </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q1" value="b) Aston Martin"> b) Aston Martin </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q1" value="c) Lincoln Continental"> c) Lincoln Continental </li>
+                            </ul>
+                            </div><Br>
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">2. Care dintre următoarele mașini a fost contruită/îmbunătățită de Dominic Toretto și tatăl său, în seria de filme Fast & Furious?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q2" value="a) Dodge Charger din 1970"> a) Dodge Charger din 1970 </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q2" value="b) Volkswagen Jetta din 1995"> b) Volkswagen Jetta din 1995 </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q2" value="c) Chevrolet Camaro Yenko din 1969"> c) Chevrolet Camaro Yenko din 1969 </li>
+                            </ul>
+                            </div><br>
+                            
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">3. Cum mai este numit Batmobilul, vehiculul lui Batman?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q3" value="a) The Bumblebee"> a) The Bumblebee </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q3" value="b) The Mini"> b) The Mini </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q3" value="c) Tumbler"> c) Tumbler </li>
+                            </ul>
+                            </div><br>
+                            
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">4. Ce mașină legendară construiesc Tobey și Dino, devenind apoi rivali, în Need for Speed?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q4" value="a) Koenigsegg Agera R"> a) Koenigsegg Agera R </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q4" value="b) Ford Shelby Mustang"> b) Ford Shelby Mustang </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q4" value="c) Bugatti Veyron Super Sport"> c) Bugatti Veyron Super Sport </li>
+                            </ul>
+                            </div><br>
+                            
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">5. Ce culoare avea mașina lui Mr. Bean, un BMC Morris Mini 1000 Mark 2 din 1969, în episodul pilot al serialului?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q5" value="a) portocaliu"> a) portocaliu </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q5" value="b) albastru"> b) albastru </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q5" value="c) verde"> c) verde </li>
+                            </ul>
+                            </div><br>
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">6. Ce mașină reprezintă personajul Bumblebee, autobotul din Transformers?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q6" value="a) Chevrolet Camaro"> a) Chevrolet Camaro </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q6" value="b) Lamborghini Centenario"> b) Lamborghini Centenario </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q6" value="c) Ford Mustang"> c) Ford Mustang </li>
+                            </ul>
+                            </div><br>
+                            
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">7. Care este valoarea totală a mașinilor distruse în filmele cu James Bond?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q7" value="a) 5 milioane de euro"> a) 5 milioane de euro </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q7" value="b) 1 milion de euro"> b) 1 milion de euro </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q7" value="c) 9.5 milioane de euro"> c) 9.5 milioane de euro </li>
+                            </ul>
+                            </div><br>
+
+
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">8. Pe ce se bazează acțiunea filmelor din seria Fast & Furious?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q8" value="a) acțiune și spionaj"> a) acțiune și spionaj </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q8" value="b) curse ilegale de mașini, spargeri și jafuri"> b) curse ilegale de mașini, spargeri și jafuri </li>
+                                <li style="font-size: 17px;"><input type="radio" name="q8" value="c) salvarea orașului de rău-făcători"> c) salvarea orașului de rău-făcători </li>
+                            </ul>
+                            </div><br>
+
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">9. Cu ce mașină se prezintă Tobey la cursa De Leon, în Need for Speed?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q9" value="a) Lamborghini Sesto Elemento"> a) Lamborghini Sesto Elemento</li>
+                                <li style="font-size: 17px;"><input type="radio" name="q9" value="b) McLaren P1"> b) McLaren P1</li>
+                                <li style="font-size: 17px;"><input type="radio" name="q9" value="c) Koenigsegg Acera R"> c) Koenigsegg Acera R</li>
+                            </ul>
+                            </div><br>
+                            
+                            <div style="border-style: solid; padding: 10px 30px;">
+                            <p style="font-size: 20px;">10. Cum este descris Batmobilul în trilogia "The Dark Knight"?</p>
+                            <ul style="margin-top: 1pt; list-style: none;">
+                                <li style="font-size: 17px;"><input type="radio" name="q10" value="a) încrucișare între un Lamborghini și un tanc"> a) încrucișare între un Lamborghini și un tanc</li>
+                                <li style="font-size: 17px;"><input type="radio" name="q10" value="b) mașină roșie cu aspect obișnuit"> b) mașină roșie cu aspect obișnuit</li>
+                                <li style="font-size: 17px;"><input type="radio" name="q10" value="c) mașină cu aripi de liliac"> c) mașină cu aripi de liliac </li>
+                            </ul>
+                            </div><br>
+                                        
+                            <input type="button" value="Rezultat" onClick="getScore(this.form)">
+                            <input type="reset" value="Reluați întrebările">
+                            <p> <strong>Scorul dumneavoastră la acest: <input class="bgclr" type="text" size="5" name="percentage" ></strong><br><br>
+
+                            <p> <strong>Răspunsuri corecte:</strong></p>
+                            <textarea class="bgclr" name="solutions" wrap="virtual" rows="11" cols="45" disabled style="color: #333; background-color:#eee; border:0px; font-weight:bold">
+                            </textarea>
+						</form>	
+                    </div>
+                </div>
+            </div>
+        </main>
+		
+
+
+        <div class="footer-area">
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">Cars and movies | Quiz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>
