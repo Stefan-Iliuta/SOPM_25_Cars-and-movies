@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Setări de bază pentru compatibilitate și afișare -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cars and movies | Galerie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Iconițe și stiluri externe -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="assets/css/all.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+
+    <!-- Stiluri specifice pentru galerie -->
+    <link rel="stylesheet" href="assets/css/gallery-grid.css">
+    <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Preloader – animația de încărcare a paginii -->
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Începutul conținutului principal al paginii -->
+    <div class="main-wrapper">
+
+        <!-- ====================== ANTETUL SITE-ULUI ====================== -->
+        <header class="main-header-area">
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <!-- Logo-ul site-ului -->
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <!-- Meniu principal desktop -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+                                            <li><a href="index.html">Prima pagină</a></li>
+
+                                            <!-- Meniu derulant pentru categoria "Mașini" -->
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i></a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="fast-furious.html">Mașini din Fast &amp Furious</a></li>
+                                                    <li><a href="nfs.html">Mașini din Need for Speed</a></li>
+                                                    <li><a href="batmobil.html">Batmobilul</a></li>
+                                                    <li><a href="bond.html">Mașinile lui James Bond</a></li>
+                                                    <li><a href="transformers.html">Mașini Transformers</a></li>
+                                                    <li><a href="bean.html">Mașina lui Mr. Bean</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Alte pagini -->
+                                            <li><a href="quiz.html">Quiz</a></li>
+                                            <li><a href="galerie.html">Galerie</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <!-- Buton pentru meniu mobil -->
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">Meniu</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meniu lateral pentru dispozitive mobile -->
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html"><span class="mm-text">Prima pagină</span></a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span class="mm-text">Mașini <i class="fa fa-caret-down"></i></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="fast-furious.html"><span class="mm-text">Mașini din Fast &amp Furious</span></a></li>
+                                            <li><a href="nfs.html"><span class="mm-text">Mașini din Need for Speed</span></a></li>
+                                            <li><a href="batmobil.html"><span class="mm-text">Batmobilul</span></a></li>
+                                            <li><a href="bond.html"><span class="mm-text">Mașinile lui James Bond</span></a></li>
+                                            <li><a href="transformers.html"><span class="mm-text">Mașini Transformers</span></a></li>
+                                            <li><a href="bean.html"><span class="mm-text">Mașina lui Mr. Bean</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="quiz.html"><span class="mm-text">Quiz</span></a></li>
+                                    <li><a href="galerie.html"><span class="mm-text">Galerie</span></a></li>
+                                    <li><a href="contact.html"><span class="mm-text">Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="global-overlay"></div>
+        </header>
+        <!-- ====================== SFÂRȘIT ANTET ====================== -->
+
+        <!-- ====================== SECȚIUNEA GALERIE FOTO ====================== -->
+        <div class="background-img" data-bg-image="assets/images/banner1.jpg">
+            <div class="product-area section-space-y-axis-100 product-arrow">
+                <div class="container">
+                    <div class="section-title pb-55">
+                        <h2 class="title mb-0" style="text-align: center;">Galerie foto</h2>
+                    </div>
+
+                    <!-- Containerul principal al galeriei -->
+                    <div class="my123-container my123-gallery-container">
+                        <div class="tz-gallery">
+                            <div class="row">
+                                <!-- Fiecare imagine din galerie -->
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/fast-furious15.jpg">
+                                        <img src="assets/images/fast-furious15.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/batmobilul3.jpg">
+                                        <img src="assets/images/batmobilul3.jpg">
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-12 col-md-4">
+                                    <a class="lightbox" href="assets/images/bean4.jpg">
+                                        <img src="assets/images/bean4.jpg">
+                                    </a>
+                                </div>
+
+                                <!-- (Galeria continuă cu mai multe imagini, toate afișate în același format) -->
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/bond3.jpg">
+                                        <img src="assets/images/bond3.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/fast-furious7.jpg">
+                                        <img src="assets/images/fast-furious7.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <a class="lightbox" href="assets/images/nfs1.jpg">
+                                        <img src="assets/images/nfs1.jpg">
+                                    </a>
+                                </div>
+
+                                <!-- Alte imagini -->
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/transformers8.jpg">
+                                        <img src="assets/images/transformers8.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <a class="lightbox" href="assets/images/tumbler3.jpg">
+                                        <img src="assets/images/tumbler3.jpg">
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <a class="lightbox" href="assets/images/bond12.jpg">
+                                        <img src="assets/images/bond12.jpg">
+                                    </a>
+                                </div>
+                                <!-- ... și restul imaginilor din galerie ... -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ====================== SFÂRȘIT GALERIE FOTO ====================== -->
+
+        <!-- ====================== SUBSOL (FOOTER) ====================== -->
+        <div class="footer-area">
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">
+                                    Cars and movies | Galerie
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ====================== SFÂRȘIT FOOTER ====================== -->
+
+        <!-- Buton pentru revenirea în partea de sus a paginii -->
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- ====================== SCRIPTURI ====================== -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+
+    <!-- Inițializare pentru vizualizarea imaginilor în mod lightbox -->
+    <script>
+        window.addEventListener('load', function() {
+            baguetteBox.run('.tz-gallery');
+        });
+    </script>
+
+    <!-- Scripturi suplimentare -->
+    <script src="assets/js/baguetteBox.min.js" async></script>
+    <script src="assets/js/bootstrap.min.js" async></script>
+</body>
+</html>
