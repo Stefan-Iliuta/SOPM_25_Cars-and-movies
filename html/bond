@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Informații de bază despre pagină -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cars and movies | Mașinile lui James Bond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon (iconiță din tab-ul browserului) -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- Fișiere CSS externe -->
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+	<link href ="assets/css/all.css" type="text/css" rel = "stylesheet">
+	<link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+</head>
+
+<body>
+    <!-- Ecran de încărcare (preloader) -->
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Învelișul principal al paginii -->
+    <div class="main-wrapper">
+
+        <!-- ======== Antetul paginii (Header) ======== -->
+        <header class="main-header-area">
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <!-- Logo-ul site-ului -->
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <!-- Meniul principal (pentru desktop) -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+											<li><a href="index.html">Prima pagină</a></li>
+											
+                                            <!-- Submeniu Mașini -->
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i></a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="fast-furious.html">Mașini din Fast &amp Furious</a></li>
+                                                    <li><a href="nfs.html">Mașini din Need for Speed</a></li>
+													<li><a href="batmobil.html">Batmobilul</a></li>
+													<li><a href="bond.html">Mașinile lui James Bond</a></li>
+													<li><a href="transformers.html">Mașini Transformers</a></li>
+													<li><a href="bean.html">Mașina lui Mr. Bean</a></li>
+                                                </ul>
+                                            </li>
+											
+											<li><a href="quiz.html">Quiz</a></li>
+											<li><a href="galerie.html">Galerie</a></li>
+											<li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+								
+                                <!-- Buton meniu mobil -->
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                                Meniu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meniu lateral pentru versiunea mobilă -->
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html"><span class="mm-text">Prima pagină</span></a></li>
+									
+                                    <!-- Submeniu Mașini pentru mobil -->
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span class="mm-text">Mașini <i class="fa fa-caret-down"></i></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="fast-furious.html"><span class="mm-text">Mașini din Fast &amp Furious</span></a></li>
+											<li><a href="nfs.html"><span class="mm-text">Mașini din Need for Speed</span></a></li>
+											<li><a href="batmobil.html"><span class="mm-text">Batmobilul</span></a></li>
+											<li><a href="bond.html"><span class="mm-text">Mașinile lui James Bond</span></a></li>
+											<li><a href="transformers.html"><span class="mm-text">Mașini Transformers</span></a></li>
+											<li><a href="bean.html"><span class="mm-text">Mașina lui Mr. Bean</span></a></li>
+                                        </ul>
+                                    </li>
+									
+									<li><a href="quiz.html"><span class="mm-text">Quiz</span></a></li>
+									<li><a href="galerie.html"><span class="mm-text">Galerie</span></a></li>
+									<li><a href="contact.html"><span class="mm-text">Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fundal transparent pentru meniul mobil -->
+            <div class="global-overlay"></div>
+        </header>
+        <!-- ======== Sfârșit antet ======== -->
+
+        <!-- ======== Zona slider principal ======== -->
+        <div class="slider-area">
+            <div class="swiper-container main-slider swiper-arrow with-bg_white">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/bond-1.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h2 class="title mb-3">Mașinile lui<Br> James Bond</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/bond-2.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h3 class="sub-title">Aston Martin - marca făcută celebră de James Bond</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Butoane și paginare slider -->
+                <div class="swiper-pagination with-bg d-md-none"></div>
+                <div class="custom-arrow-wrap d-none d-md-block">
+                    <div class="custom-button-prev"></div>
+                    <div class="custom-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ======== Sfârșit slider ======== -->
+		
+        <!-- ======== Conținut principal ======== -->
+        <main class="main-content">
+
+            <!-- Secțiune introductivă despre James Bond -->
+            <div class="about-banner different-bg-position section-space-y-axis-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-banner-content text-center section-space-bottom-95" style="padding-bottom: 0px;">
+                                <div class="section-title">
+                                    <p class="short-desc mb-0" style="font-size: 20px;">
+									    <!-- Text introductiv -->
+									    De peste o jumătate de secol, legendarul agent secret a fascinat generații...
+									</p>
+                                </div>
+                            </div>
+
+                            <!-- Galerie de imagini Bond -->
+							<div class="about-banner-img row">
+                                <div class="col-lg-4"><img class="img-full" src="assets/images/bond1.jpg"></div>
+                                <div class="col-lg-4 section-space-top-100"><img class="img-full" src="assets/images/bond2.jpg"></div>
+                                <div class="col-lg-4 section-space-top-100 pt-lg-0"><img class="img-full" src="assets/images/bond3.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Secțiune cu fundal imagine și informații detaliate -->
+		    <div class="background-img" data-bg-image="assets/images/banner1.jpg">
+                <div class="product-area section-space-y-axis-100 product-arrow">
+                    <div class="container">
+                        <div class="section-title pb-55" style="padding-bottom: 0px;">
+                            <p style="font-size: 20px;">
+							    <!-- Text despre istoria mașinilor Bond -->
+							    Eroul romanelor lui Ian Fleming s-a bucurat, de-a lungul anilor...
+						    </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		
+            <!-- Galerie cu modelele de mașini ale lui Bond -->
+		    <div class="background-img" style="padding-bottom: 100px;">
+                <div class="banner-area section-space-top-100">
+                    <div class="container">
+					    <p style="font-size: 20px;">De-a lungul vremii, agentul 007 a impus moda vremurilor...</p>
+                        
+                        <!-- Rânduri cu imagini și denumiri de mașini -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond4.jpg"><h4><b>Sunbeam Alpine</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond5.jpg"><h4><b>Bentley 3.5L Drophead</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond6.jpg"><h4><b>Lincoln Continental</b></h4></div>
+                        </div>
+						
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond7.jpg"><h4><b>Toyota 2000GT</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond8.jpg"><h4><b>Chevrolet Impala</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond9.jpg"><h4><b>BMW Z8</b></h4></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond10.jpg"><h4><b>Aston Martin DB5</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond11.jpg"><h4><b>Aston Martin V8 Vantage Volante</b></h4></div>
+                            <div class="col-lg-4 col-md-6"><img class="img-full" src="assets/images/bond12.jpg"><h4><b>Aston Martin DB10</b></h4></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- ======== Sfârșit conținut principal ======== -->
+		
+        <!-- ======== Subsolul paginii (Footer) ======== -->
+        <div class="footer-area">
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">Cars and movies | Mașinile lui James Bond</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======== Sfârșit subsol ======== -->
+        
+        <!-- Buton pentru scroll în sus -->
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Scripturi JavaScript externe -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>
