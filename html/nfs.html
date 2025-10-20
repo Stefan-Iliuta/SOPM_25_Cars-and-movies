@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Setări de bază pentru compatibilitate și afișare -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cars and movies | Mașini din Need for Speed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Iconițe și stiluri externe -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="assets/css/all.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/mini-logo.png">
+</head>
+
+<body>
+    <!-- Preloader – animația de încărcare a paginii -->
+    <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+
+        <!-- ====================== ANTETUL SITE-ULUI ====================== -->
+        <header class="main-header-area">
+            <div class="header-middle header-sticky py-6 py-lg-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <div class="header-middle-wrap position-relative">
+
+                                <!-- Logo-ul site-ului -->
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/images/logo.png" alt="Header Logo">
+                                </a>
+
+                                <!-- Meniu principal desktop -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav class="main-nav">
+                                        <ul>
+                                            <li><a href="index.html">Prima pagină</a></li>
+
+                                            <!-- Meniu derulant pentru categoria "Mașini" -->
+                                            <li class="drop-holder">
+                                                <a href="#">Mașini<i class="fa fa-caret-down"></i></a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="fast-furious.html">Mașini din Fast &amp Furious</a></li>
+                                                    <li><a href="nfs.html">Mașini din Need for Speed</a></li>
+                                                    <li><a href="batmobil.html">Batmobilul</a></li>
+                                                    <li><a href="bond.html">Mașinile lui James Bond</a></li>
+                                                    <li><a href="transformers.html">Mașini Transformers</a></li>
+                                                    <li><a href="bean.html">Mașina lui Mr. Bean</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li><a href="quiz.html">Quiz</a></li>
+                                            <li><a href="galerie.html">Galerie</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <!-- Buton pentru meniu mobil -->
+                                <div class="header-right">
+                                    <ul>
+                                        <li class="mobile-menu_wrap d-block d-lg-none">
+                                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">Meniu</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meniu lateral pentru mobil -->
+            <div class="mobile-menu_wrapper" id="mobileMenu">
+                <div class="offcanvas-body">
+                    <div class="inner-body">
+                        <div class="offcanvas-menu_area">
+                            <nav class="offcanvas-navigation">
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html"><span class="mm-text">Prima pagină</span></a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#"><span class="mm-text">Mașini <i class="fa fa-caret-down"></i></span></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="fast-furious.html"><span class="mm-text">Mașini din Fast &amp Furious</span></a></li>
+                                            <li><a href="nfs.html"><span class="mm-text">Mașini din Need for Speed</span></a></li>
+                                            <li><a href="batmobil.html"><span class="mm-text">Batmobilul</span></a></li>
+                                            <li><a href="bond.html"><span class="mm-text">Mașinile lui James Bond</span></a></li>
+                                            <li><a href="transformers.html"><span class="mm-text">Mașini Transformers</span></a></li>
+                                            <li><a href="bean.html"><span class="mm-text">Mașina lui Mr. Bean</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="quiz.html"><span class="mm-text">Quiz</span></a></li>
+                                    <li><a href="galerie.html"><span class="mm-text">Galerie</span></a></li>
+                                    <li><a href="contact.html"><span class="mm-text">Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="global-overlay"></div>
+        </header>
+        <!-- ====================== SFÂRȘIT ANTET ====================== -->
+
+        <!-- ====================== SLIDER/HEADER IMAGINI ====================== -->
+        <div class="slider-area">
+            <div class="swiper-container main-slider swiper-arrow with-bg_white">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/nfs-banner1.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h2 class="title mb-3">Need for Speed</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide animation-style-01">
+                        <div class="slide-inner bg-height" data-bg-image="assets/images/nfs-banner2.jpg">
+                            <div class="container">
+                                <div class="slide-content text-white">
+                                    <h3 class="sub-title">Super-mașini din Need for Speed</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination with-bg d-md-none"></div>
+                <div class="custom-arrow-wrap d-none d-md-block">
+                    <div class="custom-button-prev"></div>
+                    <div class="custom-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ====================== SFÂRȘIT SLIDER ====================== -->
+
+        <!-- ====================== SECȚIUNEA DESPRE FILM ====================== -->
+        <main class="main-content">
+            <div class="about-banner different-bg-position section-space-y-axis-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-banner-content text-center section-space-bottom-95" style="padding-bottom: 0px;">
+                                <div class="section-title">
+                                    <p class="short-desc mb-0" style="font-size: 20px;">
+                                        <b>Need for Speed</b> este o franciză americană de filme de acțiune bazate pe jocurile video de la EA. Seria a început cu filmul din 2003 „The Need for Speed” și include 9 filme, oferind realism și senzație de adrenalină pe durata curselor. Comparativ cu Fast & Furious, aceste filme pun accent pe realism și senzație continuă de viteză.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====================== BREADCRUMB / POVESTEA FILMULUI ====================== -->
+            <div class="breadcrumb-area breadcrumb-height" data-bg-image="assets/images/banner2.jpg">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col-lg-9">
+                            <div class="breadcrumb-item text-night-rider">
+                                <h2>Povestea Need for Speed și super-mașinile </h2>
+                                <p style="font-size: 18px;">
+                                    Filmul urmărește povestea lui Tobey, forțat să finalizeze un Ford Shelby Mustang pentru rivalul său Dino, ducând la conflicte, curse și o goană nebună pentru dreptate, culminând cu cursa De Leon în care sunt prezente cele mai performante super-mașini din lume.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ====================== SECȚIUNEA IMAGINI CU MAȘINI ====================== -->
+            <div class="background-img" data-bg-image="assets/images/banner1.jpg">
+                <div class="product-area section-space-y-axis-100 product-arrow">
+                    <div class="container">
+                        <div class="section-title pb-55" style="padding-bottom: 0px;">
+                            <p style="font-size: 20px;">
+                                Rivalitatea lui Tobey și Dino se desfășoară în curse cu mașini precum <b>Koenigsegg Agera R</b> și se încheie cu cursa finală în San Francisco, unde Tobey folosește același Koenigsegg ascuns pentru a-l învinge pe Dino.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galerie de mașini -->
+            <div class="background-img" style="padding-bottom: 100px;">
+                <div class="banner-area section-space-top-100">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Fiecare imagine cu descriere -->
+                            <div class="col-lg-4 col-md-6">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs1.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>Ford Shelby Mustang</b></h4><br><br>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 pt-6 pt-md-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs2.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>Koenigsegg Agera R</b></h4><br><br>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs3.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>Bugatti Veyron Super Sport</b></h4><br><br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs4.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>Lamborghini Sesto Elemento</b></h4>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 pt-6 pt-md-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs5.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>McLaren P1</b></h4>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 pt-6 pt-lg-0">
+                                <div class="banner-item img-hover-effect">
+                                    <div class="banner-img img-zoom-effect">
+                                        <img class="img-full" src="assets/images/nfs6.jpg">
+                                    </div>
+                                </div>
+                                <h4><b>GTA Spano</b></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- ====================== SFÂRȘIT SECȚIUNE PRINCIPALĂ ====================== -->
+
+        <!-- ====================== FOOTER ====================== -->
+        <div class="footer-area">
+            <div class="footer-top text-lavender" data-bg-image="assets/images/banner3.png" style="padding-top: 25px; padding-bottom: 25px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="widget-item">
+                                <p style="font-size: 20px;">
+                                    Performanțele tehnice ale mașinilor sunt prezentate realist în film, oferind senzația de viteză datorită tehnicilor de filmare și lipsei graficii computerizate.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom bg-midnight-express py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright">
+                                <span class="copyright-text" style="font-size: 20px; color: white;">
+                                    Cars and movies | Mașini din Need for Speed
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Buton revenire sus -->
+        <a class="scroll-to-top" href="">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- SCRIPTURI -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>
