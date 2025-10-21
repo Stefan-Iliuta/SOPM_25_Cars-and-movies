@@ -290,7 +290,25 @@
         </a>
     </div>
 
-    <!-- ======= SCRIPTURI JAVASCRIPT ======= -->
+    <!-- ======= SCRIPTURI JAVASCRIPT ======= -->'
+
+<script>
+  // Arată / ascunde butonul
+  window.addEventListener("scroll", function() {
+    const scrollBtn = document.querySelector(".scroll-to-top");
+    if (window.scrollY > 300) {
+      scrollBtn.style.display = "block";
+    } else {
+      scrollBtn.style.display = "none";
+    }
+  });
+
+  // Clic → duce direct sus (fără efect smooth)
+  document.querySelector(".scroll-to-top").addEventListener("click", function(e) {
+    e.preventDefault();
+    window.scrollTo(0, 0); // instant
+  });
+</script>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/main.min.js"></script>
