@@ -309,6 +309,37 @@
     window.scrollTo(0, 0); // instant
   });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollBtn = document.querySelector(".scroll-to-top");
+
+    // Arată butonul când scrollezi în jos peste 200px
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) {
+            scrollBtn.style.display = "block";
+        } else {
+            scrollBtn.style.display = "none";
+        }
+    });
+
+    // CLICK – te duce instant sus (fără nicio animație)
+    scrollBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        // Elimină orice comportament de scroll lin din CSS sau JS
+        document.documentElement.style.scrollBehavior = "auto";
+        document.body.style.scrollBehavior = "auto";
+
+        // Sari instant sus
+        window.scrollTo(0, 0);
+
+        // Oprește orice animație din alte scripturi
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 0);
+    });
+});
+</script>
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/main.min.js"></script>
