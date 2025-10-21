@@ -15,4 +15,6 @@ versiunea 1.4.1-implementare java script pt afisarea punctaj
 
 versiunea 1.4.2-adaugare efect hover pt banere
 
+versiunea 1.5.0-am modifcat codul de html si js pt a face butonul de scroll sa funtioneze corect
+
 versiunea 2.0.0-redesgin partial al paginii principale(layout modernizat)
