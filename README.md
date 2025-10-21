@@ -12,4 +12,4 @@ Task-uri membri:
 
 -Grama Simona: Am creat paginile style.css, versiuni.txt si readme.md in Github si am adaugat in readme.md motivatia alegerii temei. Am mai adaugat in folderul css o parte din paginile .scss si toate paginile .css
 
--Craciun Andrei:
+-Craciun Andrei: Am adăugat o parte din fișierele .scss.
