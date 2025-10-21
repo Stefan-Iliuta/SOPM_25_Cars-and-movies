@@ -10,6 +10,6 @@ Task-uri membri:
 
 -Iliuta Andrei: Am pus indexul.html urmand sa restructurez codul astfel incat sa aiba o nuanta buna vizibila si comentarii ,la fel am facut si contact.html si batmobil.html
 
--Grama Simona: Am creat paginile style.css, versiuni.txt si readme.md in Github si am adaugat in readme.md motivatia alegerii temei.
+-Grama Simona: Am creat paginile style.css, versiuni.txt si readme.md in Github si am adaugat in readme.md motivatia alegerii temei. Am mai adaugat in folderul css o parte din paginile .scss si toate paginile .css
 
 -Craciun Andrei:
