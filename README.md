@@ -1,4 +1,4 @@
-Tema acestui proiect la informatică este «Cars and movies».
+Tema acestui proiect  este «Cars and movies».
 
 Am ales această temă pentru că sunt o persoană foarte pasionată de tot ce înseamnă super-mașini dar și de producțiile cinematrografice în care obiectul principal al acțiunii include, în principal, curse de mașini și secvențe de o adrenalină maximă.Consider că fiecare dintre noi trebuie să aibă un hobby, o ocupație pe care să o facă cu plăcere, pentru că doar în acest mod ne păstrăm creativitatea și spiritul inovator. În cazul meu, acest hobby este reprezentat de mașini, iar cel mai bun mod în care pot să mă conectez cu această lume este prin intermediul operelor cinematografice bine realizate.
 
