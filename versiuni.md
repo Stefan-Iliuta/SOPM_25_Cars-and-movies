@@ -21,8 +21,8 @@ versiunea 2.0.0-redesgin partial al paginii principale(layout modernizat)
 
 versiunea 2.1.0 – „Contact Academic” -Actualizare secțiune Contact
 
-versiunea 2.1.1 – „Mesaj direct”-Butonul „Trimite mesaj” devine funcțional.
+versiunea 2.1.1 – „Mesaj direct”-Butonul „Trimite mesaj” devine funcțional.Trimiterea mesajului se face automat către adresa de e-mail iliutzastefan111@gmail.com.
 
 versiunea 2.2.0 – „Finisaje finale”-Corecturi estetice (spacing, aliniere text).
 
-versiunea 2.3.0 (Final Release) – „Cars and Movies – The Director’s Cut”-Toate paginile au fost unificate într-un design coerent.Trimiterea mesajului se face automat către adresa de e-mail iliutzastefan111@gmail.com.
+versiunea 2.3.0 (Final Release) – „Cars and Movies – The Director’s Cut”-Toate paginile au fost unificate într-un design coerent.
